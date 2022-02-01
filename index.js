@@ -5,17 +5,17 @@ let annualExpenses = 0
 
 /* for (let i = 0; i < weeklyExpenseQuestions.length; i++){
     let weqAnswer = parseFloat(window.prompt(weeklyExpenseQuestions[i]))
-    weeklyExpenses = weeklyExpenses + weqAnswer
+    weeklyExpenses += weqAnswer
 }
 
 for (let i = 0; i < monthlyExpenseQuestions.length; i++){
     let meqAnswer = parseFloat(window.prompt(monthlyExpenseQuestions[i]))
-    monthlyExpenses = monthlyExpenses + meqAnswer
+    monthlyExpenses += meqAnswer
 }
 
 for (let i = 0; i < annualExpenseQuestions.length; i++){
     let aeqAnswer = parseFloat(window.prompt(annualExpenseQuestions[i]))
-    annualExpenses = annualExpenses + aeqAnswer 
+    annualExpenses += aeqAnswer 
 }*/
 /* console.log(weqAnswer) */
 
@@ -24,17 +24,17 @@ for (let i = 0; i < annualExpenseQuestions.length; i++){
 
 /* for (let i = weeklyExpenseQuestions.length - 1; i >=0; i--){
     let weqAnswer = parseFloat(window.prompt(weeklyExpenseQuestions[i]))
-    weeklyExpenses = weeklyExpenses + weqAnswer
+    weeklyExpenses += weqAnswer
 }
 
 for (let i = weeklyExpenseQuestions.length - 1; i >=0; i--){
     let meqAnswer = parseFloat(window.prompt(monthlyExpenseQuestions[i]))
-    monthlyExpenses = monthlyExpenses + meqAnswer
+    monthlyExpenses += meqAnswer
 }
 
 for (let i = weeklyExpenseQuestions.length - 1; i >=0; i--){
     let aeqAnswer = parseFloat(window.prompt(annualExpenseQuestions[i]))
-    annualExpenses = annualExpenses + aeqAnswer
+    annualExpenses += aeqAnswer
 } */
 
 
@@ -43,20 +43,20 @@ for (let i = weeklyExpenseQuestions.length - 1; i >=0; i--){
 let weeklyIndex = 0
 while (weeklyIndex < weeklyExpenseQuestions.length){
     let weqAnswer = parseFloat(window.prompt(weeklyExpenseQuestions[weeklyIndex]))
-    weeklyExpenses = weeklyExpenses + weqAnswer
+    weeklyExpenses += weqAnswer
     weeklyIndex++
 }
 
 let monthlyIndex = 0
 while (monthlyIndex < monthlyExpenseQuestions.length){
     let meqAnswer = parseFloat(window.prompt(monthlyExpenseQuestions[monthlyIndex]))
-    monthlyExpenses = monthlyExpenses + meqAnswer
+    monthlyExpenses += meqAnswer
     monthlyIndex++
 }
 
 let annualIndex = 0
 while (annualIndex < annualExpenseQuestions.length){
     let aeqAnswer = parseFloat(window.prompt(annualExpenseQuestions[annualIndex]))
-    annualExpenses = annualExpenses + aeqAnswer
+    annualExpenses += aeqAnswer
     annualIndex++
 }
